@@ -131,6 +131,23 @@ Examples: `SKILL-META-001`, `SKILL-PM-003`, `SKILL-MKT-001`
 
 ---
 
+## MCP configuration
+
+`mcp.json` (Cursor) and `.mcp.json` (Claude) are **environment-specific** — they list the
+tools *your* setup connects to, and you authenticate each one yourself. No tokens live in
+this repo.
+
+- **Notion is the only server the OS itself needs.** Two meta-skills (`log-skill-output`,
+  `file-feedback-ticket`) write to your Notion databases via a server named `notion`, which
+  is preconfigured to Notion's hosted MCP (`https://mcp.notion.com/mcp`). Authenticate it on
+  first connect. (Prefer not to use Notion? Remove that server and drop those two skills.)
+- **Add your own servers** for anything the skills *you* build will touch — e.g. Linear,
+  Slack, Google Drive, a feature-flag service. They're not shipped here because they're
+  specific to your stack.
+- Keep `mcp.json` and `.mcp.json` in sync if you use both Cursor and Claude.
+
+---
+
 ## Notes
 
 - `context/shared/pm_framework.md` and `use_case.md` are **examples** — adapt or replace them.
