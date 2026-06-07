@@ -69,7 +69,7 @@ If the templates do not exist, use the structure documented in `context/template
 3. Confirm `team_slug`. Check whether `context/teams/{team_slug}/` already exists.
 4. Interview for **team profile** (mission, ownership/charter, members, cross-functional contacts, ways of working, decisions, pods, current tensions). Summarise, confirm.
 5. Interview for **KPIs**: which company KPIs the team is derived from, the team-level metrics, targets, and per-pod ownership. Summarise, confirm.
-6. Interview for **roadmap**: this quarter's theme, current bets, next up, parked items. Summarise, confirm.
+6. Interview for **roadmap**: this quarter's theme, current initiatives, next up, parked items. Summarise, confirm.
 7. Present the full summary and pause for review before writing files.
 8. Write:
    - `context/teams/{team_slug}/team_profile.md`

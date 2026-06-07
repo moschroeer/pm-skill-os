@@ -13,7 +13,7 @@ context/
   teams/{team-slug}/
     team_profile.md                     ← Mission, ownership, members, ways of working, decisions
     kpis.md                             ← Team KPIs derived from company KPIs
-    roadmap.md                          ← Quarterly theme, current bets, next up
+    roadmap.md                          ← Quarterly theme, current initiatives, next up
 
   people/{name}/
     _meta.md                            ← Pointer to the person's team (frontmatter: name + team)

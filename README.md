@@ -62,8 +62,7 @@ haystack-os/
 │
 ├── context/
 │   ├── shared/
-│   │   ├── pm_framework.md              ← Example: PM operating model + governance defaults
-│   │   └── use_case.md                  ← Example: use-case registry for skill building
+│   │   └── pm_framework.md              ← Example: PM operating model + governance defaults
 │   └── template/                        ← Copy these into the live scopes below
 │       ├── company/profile.md
 │       ├── teams/{team-slug}/           ← team_profile.md · kpis.md · roadmap.md
@@ -150,7 +149,7 @@ this repo.
 
 ## Notes
 
-- `context/shared/pm_framework.md` and `use_case.md` are **examples** — adapt or replace them.
+- `context/shared/pm_framework.md` is an **example** — adapt or replace it.
 - No secrets in the repo: Notion access goes through MCP. If a skill ever needs an API key,
   put it in `.env` (already git-ignored), never in a skill file.
 - `automation-readiness.md` is optional reading for when you later want skills to run headless.

@@ -9,7 +9,7 @@
 
 The team's KPIs are derived from company KPIs. Each KPI names the company-level KPI it serves, the team target, and the owner (pod, sub-team, or individual).
 
-KPIs change quarterly. Roadmap and current bets live in `roadmap.md`; this file is the metric layer only.
+KPIs change quarterly. Roadmap and current initiatives live in `roadmap.md`; this file is the metric layer only.
 
 ---
 

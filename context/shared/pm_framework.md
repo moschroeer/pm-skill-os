@@ -15,7 +15,7 @@ This is the conceptual model behind how PM work flows. It explains the five phas
 
 Load this when you need to understand where a task fits in the bigger picture — especially before building a new PM skill, or when a task spans multiple phases and the right scope isn't obvious.
 
-For the specific use cases and their execution details, see `context/shared/use_case.md`.
+For per-use-case execution details, keep a use-case registry (a short brief per recurring task). This file is the conceptual model behind those briefs.
 
 ---
 
@@ -47,7 +47,7 @@ These aren't sequential in a strict start-to-finish sense — a PM runs all five
 
 ### Phase 2 — Discovery: Synthesis
 
-**What happens here:** Evidence gathered in Phase 1 gets turned into a structured opportunity framing. This is where signals become a coherent brief for a decision — e.g. for a betting table or prioritisation forum.
+**What happens here:** Evidence gathered in Phase 1 gets turned into a structured opportunity framing. This is where signals become a coherent brief for a decision — e.g. for a prioritisation or planning forum.
 
 **AI's role:** Consolidate, prioritize, and structure. The PM brings judgment on what matters; the AI ensures nothing is lost in translation and the framing is internally consistent. The AI should present options and tensions, not pick the winner.
 
@@ -55,7 +55,7 @@ These aren't sequential in a strict start-to-finish sense — a PM runs all five
 
 **Context pattern:** Balanced — needs both team context (to judge relevance) and priorities (to frame impact correctly).
 
-**Typical tasks:** problem & opportunity briefing for a betting/prioritisation decision.
+**Typical tasks:** problem & opportunity briefing for a prioritisation decision.
 
 ---
 
@@ -144,11 +144,11 @@ Skill outputs can make context files stale. The pattern for keeping context curr
 
 | Skill type | Trigger condition | Context file to update |
 |-------|------------------|------------------------|
-| Cycle commitment / planning | A new cycle commits new bets | `context/teams/{team}/roadmap.md` |
+| Cycle commitment / planning | A new cycle commits new initiatives | `context/teams/{team}/roadmap.md` |
 | Opportunity briefing | An opportunity moves into active planning | `context/people/{name}/priorities_and_goals.md` |
 | Project health | Items newly shipped or scope drifts materially | `context/teams/{team}/roadmap.md` |
 | KPI deep dive / RCA | A baseline is officially recalculated | `context/teams/{team}/kpis.md` |
-| PRD drafting | A bet is formally added to the roadmap | `context/teams/{team}/roadmap.md` |
+| PRD drafting | An initiative is formally added to the roadmap | `context/teams/{team}/roadmap.md` |
 | `build-context-profile` (update mode) | Explicit intent — always writes | whichever file the user targets |
 
 ### The context sync step
@@ -175,7 +175,7 @@ The context sync step is **always Green governance** — it only writes after ex
 When `create-new-skill` (SKILL-META-002) is building a new PM skill:
 
 1. **Identify the phase** — which of the five phases does this task belong to? That determines the governance color and context load pattern.
-2. **Check `context/shared/use_case.md`** — is there already a `UC-PM-*` entry? Use it as the brief. If not, add one before building the skill.
+2. **Check your use-case registry** (if you keep one) — is there already a brief for this recurring task? Use it as the starting point. If not, write a short brief before building the skill.
 3. **Map the context layers** — use the table above to decide which files go in the skill's context map.
 4. **Set governance color** using the defaults above, then adjust if the specific output destination overrides the default.
 5. **Write trigger phrases** that match what a PM would actually type — the use case entry is a starting point, but refine with the skill owner.

@@ -28,7 +28,7 @@
 
 ## How our team works
 
-[How does the team communicate day-to-day? Async vs sync? Tools? Standing cadence (sprints, syncs, retros, betting cycles)?]
+[How does the team communicate day-to-day? Async vs sync? Tools? Standing cadence (sprints, syncs, retros, planning cycles)?]
 
 ## How decisions get made
 

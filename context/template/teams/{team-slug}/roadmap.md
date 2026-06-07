@@ -2,7 +2,7 @@
 **Team:** [Team name]
 **Last updated:** [Date]
 **Version:** 1.0
-**Cadence:** [e.g. review monthly at betting table; refresh quarterly]
+**Cadence:** [e.g. review monthly at prioritisation forum; refresh quarterly]
 
 ---
 
@@ -10,9 +10,9 @@
 
 [1–2 sentences: what is the team trying to move this quarter? Tied to which company priorities?]
 
-## Current bets (this cycle)
+## Current initiatives (this cycle)
 
-| Bet | Pod / owner | KPI link | Status | Notes |
+| Initiative | Pod / owner | KPI link | Status | Notes |
 |---|---|---|---|---|
 | | | | | |
 

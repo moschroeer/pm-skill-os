@@ -24,7 +24,7 @@ Set them up in this order: Skill Registry → Context KB → Output Log → Feed
 | Last evaluated | Date | Date SKILL-META-003 was last run on this skill |
 | Avg DoD score | Number | Most recent evaluation score (0–100). Shows quality at a glance. |
 | Notes | Text | Freeform — active limitations, known edge cases, things to fix next |
-| Default output destination | Text | Where this skill writes its primary output, e.g. `Notion → {Team} Bets`, `Notion → Knowledge Feed (Source: User interview)`, `Repo: context/{scope}/`, `Ephemeral — chat only`. Required for all new skills. The skill's final step uses this to know where to write. |
+| Default output destination | Text | Where this skill writes its primary output, e.g. `Notion → {Team} Roadmap`, `Notion → Knowledge Feed (Source: User interview)`, `Repo: context/{scope}/`, `Ephemeral — chat only`. Required for all new skills. The skill's final step uses this to know where to write. |
 | Output type | Select | `Artifact` (deliverable: PRD, newsletter, report, file), `Intel` (structured findings → Knowledge Feed), `Meta` (system maintenance: logging, evaluation), `Ephemeral` (chat-only answer) |
 | Runs (total) | Rollup | Source: Output Log → Skill relation. Calculate: Count. Add this after Output Log is created. |
 | Time saved — total (min) | Rollup | Source: Output Log → Time saved (min). Calculate: Sum. |

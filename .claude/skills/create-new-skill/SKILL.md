@@ -27,11 +27,11 @@ Load these if they exist:
 For PM-oriented skills, also load:
 
 - `context/shared/pm_framework.md`
-- `context/shared/use_case.md`
+- Your use-case registry, if you keep one
 
 If the owner context files do not exist, ask for the missing company and role context directly instead of inventing it.
 
-For PM-oriented skills, first check whether `context/shared/use_case.md` already contains a matching `UC-PM-*` entry. If it does, use that entry as the starting brief for the skill and use `context/shared/pm_framework.md` to decide the phase, governance color, and context pattern.
+For PM-oriented skills, first check whether your use-case registry (if you keep one) already contains a matching brief. If it does, use that entry as the starting brief for the skill and use `context/shared/pm_framework.md` to decide the phase, governance color, and context pattern.
 
 ## Workflow
 1. Confirm the task is repeated enough to justify a skill. Only proceed if it has already been done at least three times, follows a similar pattern each time, and has a clearly describable output. If any of those are still missing after clarification, stop and say the task is not ready to become a skill yet.
@@ -65,7 +65,7 @@ For PM-oriented skills, first check whether `context/shared/use_case.md` already
 - Stop instead of improvising when the task is still too vague or not routine enough.
 - SOP steps must be specific enough to execute without guessing.
 - Context references should be tiered and as small and relevant as possible.
-- PM skills should use an existing `UC-PM-*` brief when one exists.
+- PM skills should reuse an existing use-case brief when one exists.
 - Do not leave placeholders in the final skill.
 
 ## Definition Of Done
