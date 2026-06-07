@@ -68,8 +68,7 @@ haystack-os/
 │       ├── teams/{team-slug}/           ← team_profile.md · kpis.md · roadmap.md
 │       └── people/{name}/               ← _meta.md · role_profile.md · priorities_and_goals.md · communication_style.md
 │
-├── notion-schema/NOTION-SCHEMAS.md      ← Notion database setup instructions
-└── automation-readiness.md             ← Optional: prep for headless/autonomous runs
+└── notion-schema/NOTION-SCHEMAS.md      ← Notion database setup instructions
 ```
 
 The live `context/company/`, `context/teams/`, and `context/people/` folders are intentionally
@@ -152,4 +151,3 @@ this repo.
 - `context/shared/pm_framework.md` is an **example** — adapt or replace it.
 - No secrets in the repo: Notion access goes through MCP. If a skill ever needs an API key,
   put it in `.env` (already git-ignored), never in a skill file.
-- `automation-readiness.md` is optional reading for when you later want skills to run headless.
